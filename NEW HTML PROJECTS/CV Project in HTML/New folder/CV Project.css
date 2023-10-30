@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(hghyguhg.webp);
+  background-position: fixed;
+  background-size: cover;
+}
+
+
+
+div{
+  width: 330px;
+  padding-right: 230px;
+  padding-bottom: 20px;
+  height: 953px;
+  margin-left: 730px;
+  margin-top: 5px;
+  background: #e2e2e2;
+  position: absolute;  
+  box-shadow: 40px 40px 17px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.thesecond{
+  height: 953px;
+  width: 10px;
+  margin-left:495px;
+  margin-top: 5px;
+  border-radius: 0px;
+  background: #e2e2e2;
+  background: rgb(255, 180, 76);
+  box-shadow: 5px 0px 13px rgba(0, 0, 0, 0.2);
+}
+
+.upper .na{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.upper h3{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+
+}
+
+.thesecond .heading{
+  color: rgb(54, 54, 54);
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: bolder;
+
+}
+
+.thesecond .data{
+    color: rgb(54, 54, 54);
+    font-size: 13.5px;
+    font-weight: 420;
+
+}
+
+
+.thesecond .skills{
+  color: rgb(54, 54, 54);
+  margin-top: 50px;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+
+.thesecond .skillsd{
+  color: rgb(54, 54, 54);
+  font-size: 13.5px;
+  font-weight: 420;
+}
+
+
+
+.thesecond .hobb{
+  color: rgb(54, 54, 54);
+  margin-top: 50px;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+
+.thesecond .hobbd{
+  color: rgb(54, 54, 54);
+  font-size: 13.5px;
+  font-weight: 420;
+}
+
+
+
+
+.thesecond .reff{
+  color: rgb(54, 54, 54);
+  margin-top: 50px;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+
+
+
+.thesecond .reffd{
+  color: rgb(54, 54, 54);
+  font-size: 13.5px;
+  font-weight: 420;
+}
+
+
+.upper h4{
+  color: rgb(80, 80, 80);
+  margin-left: 50px;
+}
+
+
+.upper p{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+}
+
+.upper .about{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.upper p{
+  width: 450px;
+  text-align: justify;
+  margin-top: 5px;
+  color:rgb(33, 33, 33);
+}
+
+
+.upper .experience{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.upper li{
+  width: 800px;
+  margin-left: 50px;
+  margin-top: 5px;
+  color: rgb(33, 33, 33);
+  font-size: 15px;
+}
+
+
+.upper .edu{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+
+.upper .cert{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+
+.upper .projects{
+  color: rgb(54, 54, 54);
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+
+
