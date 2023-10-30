@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+    <section>
+        <navbar class="main">
+            <logos>
+                <a href="#" class="logo1">Car</a>
+                <a href="#" class="logo2">Guru</a>
+            </logos>
+        </navbar>
+
+
+
+
+            <navbar class="menu">
+                <a href="#">Home</a>
+                <a href="#">History</a>
+                <a href="#">Models</a>
+                <a href="#">Contact the Designer</a>
+            </navbar>
+        <navbar class="socialmedia">
+            <a href="https://www.linkedin.com/in/tehman600/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/Tehman700" target="_blank" class="fa fa-github"></a>
+        </navbar>
+
+
+
+
+
+
+        <div class="hero">
+            <div class="row">
+                <div class="left-sec">
+                    <div class="content">
+                        <h2>Your destination for<br></h2>
+                        <h3>Automotive knowledge</h3>
+                        <p>At Car's Guru, we're passionate about cars. Whether you're a car enthusiast, a buyer, or someone looking with the latest trends in the automotive industry, you've come to the right place. Our mission is to be your ultimate destination for comprehensive car information, tips, and more.</p>
+                    </div>
+                    <button class="explore-btn">
+                        <a href="#">Explore</a>
+                    </button>
+                    <div class="information">
+                        <div class="mytags">
+                            <p>Front-End Coder</p>
+                            <h2>Tehman Hassan (23-CP-11)</h2>
+                            <h3>UET Taxila</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sec">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                
+                            <div class="slide first">
+                                <img src="audi.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="lamborghini.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="hyundai.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="volks.png" alt="">
+                            </div>
+
+                
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked =true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000);    
+</script>
+</body>
+</html>
