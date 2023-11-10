@@ -1,0 +1,190 @@
+@font-face {
+    src: url(Audi\ Font.ttf);
+    font-family: Audi;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+
+#working{
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+}
+
+
+
+#nav{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav img{
+    height: 40px;
+}
+
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: Audi;
+}
+
+
+#nleft a{
+    font-family: Audi;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    pointer-events: all;
+}
+
+
+#nright{
+    font-family: Audi;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nright a{
+    font-family: Audi;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    pointer-events: all;
+}
+
+
+
+
+#content{
+    position: absolute;
+    top: 17%;
+    left: 0;
+    transform: translate(0%, 50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#conleft{
+    min-width: 50%;
+
+}
+
+
+#conleft .elem{
+    position: relative;
+    height: 5vw;
+    overflow: hidden;
+}
+
+
+#conleft .elem h1:nth-child(1){
+    top: 0;
+}
+
+#conleft .elem h1{
+    top: 100%;
+    left: 0;
+    position: absolute;
+    font-family: Good Times;
+    line-height: .9;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+
+#conleft button{
+    padding: 1vw 2vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-family: Good Times;
+    font-weight: 600;
+    pointer-events: all;
+    color: black;
+    border: none;
+    background-color: #E90101;
+
+}
+
+
+
+
+#conright{
+    width: 17%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 13px;
+}
+
+#conright p{
+    text-align: right;
+    font-size: 11px;
+    font-weight: 300;
+
+}
+#conright #imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(race\ car.jpg);
+    background-size: cover;
+    background-position: center;
+}
